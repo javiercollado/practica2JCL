@@ -28,10 +28,45 @@ Un ejemplo de aplicación:
 
 ##CREACIÓN JAULA
 
->Para crear la jaula utilizamos el comando facilitado en la teoría:
+>Para crear la jaula utilizamos el comando facilitado en la teoría:  
 
 	sudo debootstrap --arch=amd64 quantal /home/jaulas/quantal/	http://archive.ubuntu.com/ubuntu
 
->Esto nos creará una jaula con ubuntu sobre la que podemos trabajar en esta práctica.
+![debootstrap](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Crear%20Jaula.png?raw=true "debootstrap")  
 
->Una vez creada la jaula, tenemos que pasar a configurarla
+>Esto nos creará una jaula con base ubuntu sobre la que podemos trabajar en esta práctica.  
+
+>Aquí podemos ver como se ha creado la jaula correctamente. 
+![OK](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/instalado%20correctamente.png?raw=true "OK")  
+
+>A continuación podemos crear un usuario dentro de la jaula de manera que podamos usarlo como administrador de esta jaula.
+>Creamos el usuario y realizamos diversas operaciones sobre este, para luego poder usarlo mediante ssh.
+
+![user1](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Add%20user%201.png?raw=true "user1")  
+
+![user2](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Add%20user%202.png?raw=true "user2")  
+
+![user3](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Add%20user%203.png?raw=true "user3")  
+
+![user4](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Acceso%20SSH.png?raw=true "user4")  
+
+>Una vez creada la jaula y teniendo el usuario ya podemos instalar lo que necesitamos (O bien desde ssh con nuestro usuario o haciendo chroot a nuestra jaula).
+>Nuestra aplicacion necesitara para funcionar los siguientes componentes:  
+
+> - Servidor web Apache.  
+> - PHP.  
+
+
+>Así que usaremos los siguientes comandos para la correspondiente instalación.
+
+    sudo apt-get install apache2 -y
+    
+    sudo apt-get install php5 libapache2-mod-php5 -y
+
+>Y reiniciamos apache:
+
+    sudo /etc/init.d/apache2 restart
+
+>Finalmente, ya podemos mover nuestra aplicación a la jaula para poder verla en funcionamiento.
+
+![Mover](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/mover%20aplicacion%20a%20jaula.png?raw=true "mover")  
