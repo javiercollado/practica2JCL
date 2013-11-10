@@ -21,7 +21,8 @@ PRÁCTICA 2
 
 >Para esta práctica la aplicación la hemos desarrollado sobre php. En este caso, nos encontramos con una interfaz similar a la usada en la práctica anterior (Para tener la posibilidad de poder unir todas en una sola aplicación). La aplicación actualmente cuenta con la funcionalidad básica de introducir el número de resistencias. Y el tipo de asociación entre ellas (Serie o Paralelo), permitiendo así calcular la resistencia equivalente. Importante: 
 
-Un ejemplo de aplicación:
+Un ejemplo de aplicación:  
+
 ![resitenciaEq1](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/resistenciaEq1.png?raw=true "resitenciaEq1")
 ![resistenciaEq2](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/resistenciaEq2.png?raw=true "resitenciaEq2")
 ![resistenciaEq3](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/resistenciaEq3.png?raw=true "resitenciaEq3")
