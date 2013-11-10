@@ -19,7 +19,7 @@ PRÁCTICA 2
 
 ##APLICACIÓN DESARROLLADA
 
->Para esta practica la aplicación la hemos desarrollado sobre php. En este caso, nos encontramos con una interfaz similar a la usada en la práctica anterior (Para tener la posibilidad de poder unir todas en una sola aplicación). La aplicación actualmente cuenta con la funcionalidad basica de introducir el número de resistencias. Y el tipo de asociación entre ellas (Serie o Paralelo), permitiendo así calcular la resistencia equivalente. Importante: 
+>Para esta práctica la aplicación la hemos desarrollado sobre php. En este caso, nos encontramos con una interfaz similar a la usada en la práctica anterior (Para tener la posibilidad de poder unir todas en una sola aplicación). La aplicación actualmente cuenta con la funcionalidad básica de introducir el número de resistencias. Y el tipo de asociación entre ellas (Serie o Paralelo), permitiendo así calcular la resistencia equivalente. Importante: 
 
 Un ejemplo de aplicación:
 ![resitenciaEq1](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/resistenciaEq1.png?raw=true "resitenciaEq1")
@@ -51,7 +51,7 @@ Un ejemplo de aplicación:
 ![user4](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Acceso%20SSH.png?raw=true "user4")  
 
 >Una vez creada la jaula y teniendo el usuario ya podemos instalar lo que necesitamos (O bien desde ssh con nuestro usuario o haciendo chroot a nuestra jaula).
->Nuestra aplicacion necesitara para funcionar los siguientes componentes:  
+>Nuestra aplicación necesitará para funcionar los siguientes componentes:  
 
 > - Servidor web Apache.  
 > - PHP.  
