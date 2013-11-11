@@ -71,3 +71,6 @@ Un ejemplo de aplicación:
 >Finalmente, ya podemos mover nuestra aplicación a la jaula para poder verla en funcionamiento.
 
 ![Mover](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/mover%20aplicacion%20a%20jaula.png?raw=true "mover")  
+
+>Funcionando:  
+![Todo OK](https://github.com/javiercollado/practica2JCL/blob/master/ImagenesDocumento/Todo%20OK.png?raw=true)
